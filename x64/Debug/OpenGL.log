@@ -1,0 +1,138 @@
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/RELEASE' specification
+Gdi32.lib(GDI32.dll) : warning LNK4237: /SUBSYSTEM:NATIVE specified when importing from 'GDI32.DLL';  Use /SUBSYSTEM:CONSOLE or /SUBSYSTEM:WINDOWS.
+user32.lib(USER32.dll) : warning LNK4237: /SUBSYSTEM:NATIVE specified when importing from 'USER32.DLL';  Use /SUBSYSTEM:CONSOLE or /SUBSYSTEM:WINDOWS.
+Application.obj : error LNK2019: unresolved external symbol __imp_exit referenced in function "void __cdecl SetUpGLFW(void)" (?SetUpGLFW@@YAXXZ)
+Application.obj : error LNK2019: unresolved external symbol __imp___acrt_iob_func referenced in function "void __cdecl error_callback(int,char const *)" (?error_callback@@YAXHPEBD@Z)
+Application.obj : error LNK2019: unresolved external symbol __imp_fputs referenced in function "void __cdecl error_callback(int,char const *)" (?error_callback@@YAXHPEBD@Z)
+LINK : error LNK2001: unresolved external symbol NtProcessStartup
+glfw3.lib(win32_joystick.obj) : error LNK2019: unresolved external symbol __imp_calloc referenced in function deviceCallback
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(osmesa_context.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(vulkan.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_window.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(init.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(window.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol __imp_calloc
+glfw3.lib(win32_joystick.obj) : error LNK2019: unresolved external symbol __imp_free referenced in function _glfwPlatformUpdateGamepadGUID
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(osmesa_context.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(vulkan.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(win32_window.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(init.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(window.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol __imp_free
+glfw3.lib(init.obj) : error LNK2019: unresolved external symbol __imp___stdio_common_vsprintf referenced in function _glfwInputError
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol memset referenced in function _glfwPlatformGetVideoModes
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol memset
+glfw3.lib(init.obj) : error LNK2001: unresolved external symbol memset
+glfw3.lib(window.obj) : error LNK2001: unresolved external symbol memset
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol memset
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol memset
+glfw3.lib(window.obj) : error LNK2019: unresolved external symbol __imp_strncpy referenced in function glfwWindowHintString
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol __imp_strncpy
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_strncpy
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp_strncpy
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_strcspn referenced in function glfwUpdateGamepadMappings
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_strncmp referenced in function parseMapping
+glfw3.lib(context.obj) : error LNK2001: unresolved external symbol __imp_strncmp
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_strncmp
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_strspn referenced in function glfwUpdateGamepadMappings
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_realloc referenced in function glfwUpdateGamepadMappings
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol __imp_realloc
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_realloc
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_strtoul referenced in function parseMapping
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol memcpy referenced in function glfwUpdateGamepadMappings
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol memcpy
+glfw3.lib(context.obj) : error LNK2019: unresolved external symbol strstr referenced in function _glfwStringInExtensionString
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol strstr
+glfw3.lib(context.obj) : error LNK2019: unresolved external symbol __imp___stdio_common_vsscanf referenced in function sscanf
+glfw3.lib(win32_init.obj) : error LNK2019: unresolved external symbol __imp_VerSetConditionMask referenced in function _glfwIsWindows10BuildOrGreaterWin32
+glfw3.lib(win32_init.obj) : error LNK2019: unresolved external symbol __imp_GetLastError referenced in function _glfwInputErrorWin32
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_GetLastError
+MSVCRTD.lib(pdblkup.obj) : error LNK2001: unresolved external symbol __imp_GetLastError
+glfw3.lib(osmesa_context.obj) : error LNK2019: unresolved external symbol __imp_FreeLibrary referenced in function makeContextCurrentOSMesa
+MSVCRTD.lib(pdblkup.obj) : error LNK2001: unresolved external symbol __imp_FreeLibrary
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol __imp_FreeLibrary
+glfw3.lib(vulkan.obj) : error LNK2001: unresolved external symbol __imp_FreeLibrary
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_FreeLibrary
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_FreeLibrary
+glfw3.lib(win32_init.obj) : error LNK2019: unresolved external symbol __imp_GetModuleHandleW referenced in function _glfwPlatformInit
+glfw3.lib(win32_window.obj) : error LNK2001: unresolved external symbol __imp_GetModuleHandleW
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp_GetModuleHandleW
+glfw3.lib(osmesa_context.obj) : error LNK2019: unresolved external symbol __imp_GetProcAddress referenced in function _glfwInitOSMesa
+MSVCRTD.lib(pdblkup.obj) : error LNK2001: unresolved external symbol __imp_GetProcAddress
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol __imp_GetProcAddress
+glfw3.lib(vulkan.obj) : error LNK2001: unresolved external symbol __imp_GetProcAddress
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_GetProcAddress
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_GetProcAddress
+glfw3.lib(osmesa_context.obj) : error LNK2019: unresolved external symbol __imp_LoadLibraryA referenced in function _glfwInitOSMesa
+glfw3.lib(win32_init.obj) : error LNK2001: unresolved external symbol __imp_LoadLibraryA
+glfw3.lib(vulkan.obj) : error LNK2001: unresolved external symbol __imp_LoadLibraryA
+glfw3.lib(wgl_context.obj) : error LNK2001: unresolved external symbol __imp_LoadLibraryA
+glfw3.lib(egl_context.obj) : error LNK2001: unresolved external symbol __imp_LoadLibraryA
+glfw3.lib(win32_init.obj) : error LNK2019: unresolved external symbol __imp_FormatMessageW referenced in function _glfwInputErrorWin32
+glfw3.lib(win32_init.obj) : error LNK2019: unresolved external symbol __imp_MultiByteToWideChar referenced in function _glfwCreateWideStringFromUTF8Win32
+glfw3.lib(win32_window.obj) : error LNK2001: unresolved external symbol __imp_MultiByteToWideChar
+MSVCRTD.lib(error.obj) : error LNK2001: unresolved external symbol __imp_MultiByteToWideChar
+glfw3.lib(win32_init.obj) : error LNK2019: unresolved external symbol __imp_WideCharToMultiByte referenced in function _glfwCreateUTF8FromWideStringWin32
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol __imp_WideCharToMultiByte
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp_WideCharToMultiByte
+MSVCRTD.lib(error.obj) : error LNK2001: unresolved external symbol __imp_WideCharToMultiByte
+glfw3.lib(win32_time.obj) : error LNK2019: unresolved external symbol __imp_QueryPerformanceCounter referenced in function _glfwPlatformGetTimerValue
+glfw3.lib(win32_time.obj) : error LNK2019: unresolved external symbol __imp_QueryPerformanceFrequency referenced in function _glfwInitTimerWin32
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_InitializeCriticalSection referenced in function _glfwPlatformCreateMutex
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_EnterCriticalSection referenced in function _glfwPlatformLockMutex
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_LeaveCriticalSection referenced in function _glfwPlatformUnlockMutex
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_DeleteCriticalSection referenced in function _glfwPlatformDestroyMutex
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_TlsAlloc referenced in function _glfwPlatformCreateTls
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_TlsGetValue referenced in function _glfwPlatformGetTls
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_TlsSetValue referenced in function _glfwPlatformSetTls
+glfw3.lib(win32_thread.obj) : error LNK2019: unresolved external symbol __imp_TlsFree referenced in function _glfwPlatformDestroyTls
+glfw3.lib(monitor.obj) : error LNK2019: unresolved external symbol __imp_qsort referenced in function refreshVideoModes
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp_qsort
+glfw3.lib(monitor.obj) : error LNK2019: unresolved external symbol memmove referenced in function _glfwInputMonitor
+glfw3.lib(monitor.obj) : error LNK2019: unresolved external symbol powf referenced in function glfwSetGamma
+glfw3.lib(vulkan.obj) : error LNK2019: unresolved external symbol strcmp referenced in function _glfwInitVulkan
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol strcmp
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_GlobalAlloc referenced in function _glfwPlatformSetClipboardString
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_GlobalUnlock referenced in function _glfwPlatformGetClipboardString
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_GlobalLock referenced in function _glfwPlatformGetClipboardString
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_GlobalFree referenced in function _glfwPlatformSetClipboardString
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_SetThreadExecutionState referenced in function acquireMonitor
+MSVCRTD.lib(init.obj) : error LNK2019: unresolved external symbol _CrtDbgReport referenced in function _CRT_RTC_INIT
+MSVCRTD.lib(init.obj) : error LNK2019: unresolved external symbol _CrtDbgReportW referenced in function _CRT_RTC_INITW
+MSVCRTD.lib(debugger_jmc.obj) : error LNK2019: unresolved external symbol __imp_GetCurrentThreadId referenced in function __CheckForDebuggerJustMyCode
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol strcpy_s referenced in function "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol strcat_s referenced in function "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol __imp_IsDebuggerPresent referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPEAXHHPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol __imp_RaiseException referenced in function "void __cdecl notify_debugger(struct tagEXCEPTION_VISUALCPP_DEBUG_INFO const &)" (?notify_debugger@@YAXAEBUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol __stdio_common_vsprintf_s referenced in function _vsprintf_s_l
+MSVCRTD.lib(error.obj) : error LNK2001: unresolved external symbol __C_specific_handler_noexcept
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_RtlCaptureContext referenced in function capture_current_context
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_RtlLookupFunctionEntry referenced in function capture_current_context
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_RtlVirtualUnwind referenced in function capture_current_context
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_UnhandledExceptionFilter referenced in function __raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_SetUnhandledExceptionFilter referenced in function __raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_GetCurrentProcess referenced in function __raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_TerminateProcess referenced in function __raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp_IsProcessorFeaturePresent referenced in function __report_gsfailure
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol _wmakepath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol _wsplitpath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol wcscpy_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __imp_HeapAlloc referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __imp_HeapFree referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __imp_GetProcessHeap referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __imp_VirtualQuery referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleFileNameW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleHandleW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_LoadLibraryExW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+C:\Users\Jonat\OneDrive\Documents\Coding\OpenGL\x64\Debug\OpenGL.exe : fatal error LNK1120: 72 unresolved externals
